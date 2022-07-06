@@ -192,6 +192,25 @@ h1 {
     border-radius: 5px;
 }
 
+.info {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px#707070;
+}
+
+.info h1 {
+    width: 200px;
+    color: #000000;
+}
+
+.info h3 {
+    width: 150px;
+    color: #030303;
+}
+
 .get-update {
     margin: 20px auto;
 }
