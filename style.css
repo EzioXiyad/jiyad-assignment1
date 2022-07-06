@@ -56,7 +56,7 @@ h1 {
 }
 
 .mid-section {
-    padding: 90px 0;
+    padding: 60px 0;
 }
 
 .second-headline {
@@ -135,4 +135,57 @@ h1 {
 
 .mid-section .donate-button {
     margin-top: 40px;
+}
+
+.third-section {
+    padding: 60px 0;
+}
+
+.third-section .second-headline {
+    margin-bottom: 20px;
+}
+
+.donate-plan-card {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    margin: 60px auto;
+}
+
+.donate-plan-card-content {
+    margin: 60px auto;
+}
+
+.donate-plan-card-content img {
+    width: 58px;
+}
+
+.donate-plan-card-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.donate-plan-card-content p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+.food {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.education {
+    background: #FFF4D6;
+    border-radius: 5px;
 }
