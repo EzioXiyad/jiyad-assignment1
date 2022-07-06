@@ -10,7 +10,9 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
@@ -155,7 +157,8 @@ h1 {
 }
 
 .donate-plan-card-content {
-    margin: 60px auto;
+    padding: 60px 15px;
+    margin: 10px;
 }
 
 .donate-plan-card-content img {
@@ -196,26 +199,59 @@ h1 {
     font-family: 'Lobster', cursive;
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgba(255, 89, 89, 0.1);
     background-repeat: no-repeat;
-    box-shadow: 10px 10px#707070;
+    padding: 60px 0;
+}
+
+.info-content {
+    padding: 0 30px;
 }
 
 .info h1 {
-    width: 200px;
+    font-size: 42px;
     color: #000000;
+
 }
 
 .info h3 {
-    width: 150px;
+    font-size: 28px;
     color: #030303;
 }
 
 .get-update {
-    margin: 20px auto;
+    padding: 60px 0px;
+
 }
 
-.fot {
+.subscribe-box {
+
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    padding: 70px 180px;
+    background: #FFF4D6;
+    margin: 30px auto;
+}
+
+.email-input {
+    border: none;
+    width: 274px;
+    background-color: #d9d9d9;
+    padding: 3px 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe-button {
+    padding: 15px 35px;
+    background: #FF5959;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer-logo {
     font-family: 'Lobster', cursive;
     font-size: 36px;
     text-align: center;
@@ -223,7 +259,7 @@ h1 {
 
 }
 
-.fot-para {
+.footer-title {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     text-align: center;
@@ -231,6 +267,7 @@ h1 {
     margin: 0 auto;
 }
 
-.fot-background {
+.footer-main {
     background-color: #121212;
+    padding: 70px 0;
 }
